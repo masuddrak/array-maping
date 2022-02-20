@@ -1,16 +1,8 @@
-const numbers=[2,4,6,8,10];
-// const newNumber=[];
-// for(const number of numbers){
-//     const result=number*number;
-//     newNumber.push(result);
-// }
-// console.log(newNumber)
-
-// const squre=number=>number*number;
-// for(const number of numbers){
-//     const result=squre(number);
-//     newNumber.push(result);
-// }
-// console.log(newNumber)
-const squre=numbers.map(number=>number*number);
-console.log(squre)
+const products=[
+    {  name:'phone',price:2000,color:'red' },
+    {  name:'watch',price:100,color:'green' },
+    {  name:'glass',price:10,color:'white' },
+]
+// const productName=products.map(product=>product.name);
+// const productPrice=products.map(product=>product.price);
+products.forEach(product=>console.log(product.name))
